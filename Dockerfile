@@ -7,7 +7,6 @@ RUN apt-get install git -y
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install -y nodejs
 RUN apt-get install -y build-essential
-RUN npm init -y
 RUN git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
 WORKDIR /opt/angular-server/TeamAPoolProjectUI
 RUN git checkout Developer
