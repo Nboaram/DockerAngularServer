@@ -1,6 +1,5 @@
 FROM ubuntu:18.04
 WORKDIR /opt/angular-server
-COPY ./angular.service /etc/systemd/system/angular.service
 USER root
 RUN apt update
 RUN apt-get install curl -y
